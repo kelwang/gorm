@@ -1,3 +1,5 @@
 package sqlite
 
-import _ "github.com/mattn/go-sqlite3"
+import (
+	_ "modernc.org/sqlite"
+)
